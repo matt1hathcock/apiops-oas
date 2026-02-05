@@ -1,4 +1,4 @@
-entrypoint: "/petstore"
+entrypoint: "/argo-api"
 endpoint: "https://api.gravitee.io/echo"
 apiKeyEnabled: true
-environment: context
+environment: dev
