@@ -1,4 +1,4 @@
-entrypoint: "/argo-api"
+entrypoint: "/argo-updated"
 endpoint: "https://api.gravitee.io/echo"
 apiKeyEnabled: true
-environment: dev
+environment: context
