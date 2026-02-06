@@ -4,7 +4,7 @@ metadata:
   name: generated-crd
   namespace: default
 spec:
-  name: Argo Sample API UPDATED
+  name: Petstore API
   description: A sample API to illustrate OpenAPI concepts
   version: 1.0.0
   type: PROXY
@@ -13,11 +13,11 @@ spec:
     syncFrom: MANAGEMENT
   contextRef:
     name: context
-    # namespace: default
+    namespace: default
   listeners:
     - type: HTTP
       paths:
-        - path: /petstore
+        - path: /argo-updated
       entrypoints:
         - type: http-proxy
           qos: AUTO
