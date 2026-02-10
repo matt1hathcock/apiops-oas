@@ -4,7 +4,7 @@ metadata:
   name: generated-crd
   namespace: default
 spec:
-  name: Petstore API UPDATED
+  name: Allstate API
   description: A sample API to illustrate OpenAPI concepts
   version: 1.0.0
   type: PROXY
@@ -17,7 +17,7 @@ spec:
   listeners:
     - type: HTTP
       paths:
-        - path: /petstore
+        - path: /allstate
       entrypoints:
         - type: http-proxy
           qos: AUTO
