@@ -1,4 +1,4 @@
-entrypoint: "/petstore"
+entrypoint: "/allstate"
 endpoint: "https://api.gravitee.io/echo"
 apiKeyEnabled: true
 environment: context
