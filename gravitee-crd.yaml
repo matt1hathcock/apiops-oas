@@ -4,9 +4,9 @@ metadata:
   name: generated-crd
   namespace: default
 spec:
-  name: New Petstore API
+  name: New Title API 2
   description: A sample API to illustrate OpenAPI concepts
-  version: 1.0.0
+  version: 2.0.0
   type: PROXY
   definitionContext:
     origin: KUBERNETES
@@ -17,7 +17,7 @@ spec:
   listeners:
     - type: HTTP
       paths:
-        - path: /petstore
+        - path: /petstore-things
       entrypoints:
         - type: http-proxy
           qos: AUTO
