@@ -4,7 +4,7 @@ metadata:
   name: generated-crd
   namespace: default
 spec:
-  name: My Other Petstore API
+  name: My Next Petstore API
   description: A sample API to illustrate OpenAPI concepts
   version: 1.0.0
   type: PROXY
