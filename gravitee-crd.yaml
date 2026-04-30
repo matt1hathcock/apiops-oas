@@ -4,7 +4,7 @@ metadata:
   name: generated-crd
   namespace: default
 spec:
-  name: My Spycloud Petstore API
+  name: My next Petstore API
   description: A sample API to illustrate OpenAPI concepts
   version: 1.0.0
   type: PROXY
