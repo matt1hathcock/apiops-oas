@@ -1,7 +1,7 @@
 openapi: 3.1.0
 info:
   version: 1.0.0
-  title: My Spycloud Petstore API
+  title: My next Petstore API
   description: A sample API to illustrate OpenAPI concepts
 paths:
   /list:
