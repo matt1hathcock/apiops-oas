@@ -4,7 +4,7 @@ metadata:
   name: generated-crd
   namespace: default
 spec:
-  name: My First Frontdoor API
+  name: My Second Frontdoor API
   description: A sample API to illustrate OpenAPI concepts
   version: 1.0.0
   type: PROXY
