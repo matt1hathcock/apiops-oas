@@ -4,7 +4,7 @@ metadata:
   name: generated-crd
   namespace: default
 spec:
-  name: My Banco API
+  name: My GitOps API
   description: A sample API to illustrate OpenAPI concepts
   version: 1.0.0
   type: PROXY
